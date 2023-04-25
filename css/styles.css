@@ -1,0 +1,155 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+    list-style: none;
+}
+
+section {
+    padding: 20px;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+section p {
+    line-height: 1.5;
+}
+
+section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+section ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+section ul li a:hover {
+    color: #2d88ff;
+}
+
+footer {
+    padding: 20px;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+/* Media queries */
+@media screen and (min-width: 768px) {
+    header {
+        flex-wrap: nowrap;
+    }
+
+    header img {
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+
+    section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    section > * {
+        flex-basis: calc(50% - 20px);
+    }
+
+    section:nth-of-type(3) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    section:nth-of-type(3) li {
+        flex-basis: calc(33.33% - 10px);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    section > * {
+        flex-basis: calc(33.33% - 20px);
+    }
+
+    section:nth-of-type(3) li {
+        flex-basis: calc(25% - 10px);
+    }
+}
+
+/*SPACE*/
+.space-right{
+    padding-inline-start: 150px;
+}
+
+.space-left{
+    padding-inline-end: 150px;
+}
+
+.space-up{
+    padding-top: 70px;
+}
+
+.space-down{
+    padding-bottom: 50px;
+}
+  
+/*COLORS*/
+
+.c1{
+    color: #e76f51;
+}
+
+.c2{
+    color: #f4a261;
+}
+
+.c3{
+    color: #e9c46a;
+}
+
+.c4{
+    color: #2a9d8f;
+}
+
+.c5{
+    color: #264653;
+}
+
+
+  
