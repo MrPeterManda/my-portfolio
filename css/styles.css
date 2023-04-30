@@ -151,5 +151,8 @@ footer {
     color: #264653;
 }
 
-
-  
+#content {
+    height: 200px; /* set initial height */
+    overflow: hidden; /* hide overflow */
+}
+   
