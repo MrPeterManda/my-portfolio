@@ -152,7 +152,7 @@ footer {
 }
 
 #content {
-    height: 200px; /* set initial height */
-    overflow: hidden; /* hide overflow */
-}
+    height: 250px; /* set initial height */
+    overflow: scroll; /* hide overflow */
+}  
    
